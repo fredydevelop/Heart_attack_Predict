@@ -1,13 +1,30 @@
-#Importing the dependencies
 import numpy as np
 import pandas as pd
 #import seaborn as sns
-#from sklearn.model_selection import train_test_split
-
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix,classification_report
+import matplotlib.pyplot as plt
+from sklearn.naive_bayes import GaussianNB
+from sklearn import preprocessing
+from sklearn import svm
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import  DecisionTreeClassifier
+from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import RandomForestClassifier
+#from xgboost import XGBClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LinearRegression
+from sklearn.neural_network import MLPClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 import streamlit as st
+from streamlit_option_menu import option_menu
 import base64
 import pickle as pk
-#import joblib
+import joblib
 
 
 
