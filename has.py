@@ -126,7 +126,7 @@ def main():
     option9 = st.number_input('Insert Previous Number',key="oldPeak")
     st.write('The current number is ', option9)
 
-    option15 = st.slider('slope',0,2,key="slope")
+    option15 = st.selectbox('select slope',("",1,2),key="slope")
     st.write("Patient slope is: ", option15)
 
     option3 = st.selectbox('number of major vessels',("","0","1" ,"2","3"),key="caas")
