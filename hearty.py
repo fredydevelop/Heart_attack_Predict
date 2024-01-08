@@ -65,7 +65,7 @@ def Heart_Attack(givendata):
 
 #main function handling the input
 def main():
-    st.header("HeartyCheck")
+    st.header("Hearty Check")
     
     #getting user input
     
