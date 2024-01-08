@@ -58,9 +58,9 @@ def Heart_Attack(givendata):
     std_X_resample=std_scaler_loaded.transform(input_data_reshaped)
     prediction = loaded_model.predict(std_X_resample)
     if prediction==1:
-      return "Heart Issues present"
+      return "more chance of heart attack"
     else:
-      return "No Heart Issues Present"
+      return "less chance of heart attack"
     
 
 #main function handling the input
