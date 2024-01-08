@@ -200,10 +200,10 @@ def multi(input_data):
         st.markdown(filedownload(dfresult), unsafe_allow_html=True)
         
 
-if selection =="Predict for a Single-Patient":
+if selection =="Predict for a Single-Person":
     main()
 
-if selection == "Predict for Multi-Patient":
+if selection == "Predict for Multiple people":
     st.set_option('deprecation.showPyplotGlobalUse', False)
     #---------------------------------#
     # Prediction
