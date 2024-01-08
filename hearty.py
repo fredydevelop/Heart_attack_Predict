@@ -142,7 +142,7 @@ def main():
         caa=3
     
 
-    option10 = st.slider('thal rate',0,3,key="thall")
+    option10 = st.selectbox('thal rate',("",0,1,2,3),key="thall")
     st.write('The thal rate is ', option10)
 
 
