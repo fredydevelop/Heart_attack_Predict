@@ -36,7 +36,7 @@ st.set_page_config(page_title='Heart attack prediction system',layout='centered'
 #selection=option_menu(menu_title="Main Menu",options=["Single Prediction","Multi Prediction"],icons=["cast","book","cast"],menu_icon="house",default_index=0)
 with st.sidebar:
     st.title("Home Page")
-    selection=st.radio("select your option",options=["Predict for a Single-Patient", "Predict for Multi-Patient"])
+    selection=st.radio("select your option",options=["Predict for a Single-Person", "Predict for Multiple people"])
 
 
 # File download
@@ -65,7 +65,7 @@ def Heart_Attack(givendata):
 
 #main function handling the input
 def main():
-    st.header("Heart Attack Detection and Predictive System")
+    st.header("HeartyCheck")
     
     #getting user input
     
