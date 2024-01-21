@@ -169,7 +169,7 @@ def multi(input_data):
         dfinput.drop("output",axis=1,inplace=True)
     dfinput=dfinput.reset_index(drop=True)
 
-    st.header('A view of the uploaded dataset')
+    st.header('A preview of your uploaded dataset')
     st.markdown('')
     st.dataframe(dfinput)
 
